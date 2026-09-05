@@ -3,10 +3,10 @@ import os
 
 
 def run_pipeline():
-    # Set PYTHONPATH
+   
     os.environ['PYTHONPATH'] = '.'
 
-    # Run each step
+    
     commands = [
         'python src/preprocess.py',
         'python src/train.py',
